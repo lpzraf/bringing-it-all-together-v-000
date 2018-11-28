@@ -45,7 +45,7 @@ class Dog
     if !dog.empty? 
       data = dog[0]
       dog = Dog.new(id: data[0], name: data[1], breed: data[2])
-       binding.pry
+       #binding.pry
     else
       dog = self.create(name: name, breed: breed)
     end
